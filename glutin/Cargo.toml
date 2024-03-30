@@ -57,7 +57,7 @@ objc2 = { git = "https://github.com/madsmtm/objc2.git", features = ["relax-void-
 dispatch = "0.2.0"
 
 [target.'cfg(any(target_os = "macos"))'.dependencies.icrate]
-version = "0.0.4"
+git = "https://github.com/madsmtm/objc2.git",
 features = [
     "dispatch",
     "Foundation",
